@@ -4,15 +4,20 @@ on:
   workflow_dispatch:
 
   schedule:
-  - cron: '30 3 * * *'
+    - cron: '30 3 * * *'
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test Cloud Automation
-        run: |
-          echo "AI Job Automation Started!"
-          echo "Cloud system is working successfully."
-          echo "Next step: Job searching."
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run Job Filter
+        run: python job_filter.py
