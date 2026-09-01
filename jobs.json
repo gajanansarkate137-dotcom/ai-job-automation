@@ -2,17 +2,25 @@
   {
     "title": "Junior Data Analyst",
     "company": "Example Company",
-    "location": "Pune","Pimpri chinchwad"
+    "location": "Pune",
     "experience": "Fresher",
-    "skills": ["SQL", "Excel", "Power BI"],
+    "skills": ["SQL", "Excel", "Power BI", "Python"],
     "url": "https://example.com/job1"
   },
   {
     "title": "Data Analyst Intern",
     "company": "Example Tech",
-    "location": "Remote",
+    "location": "Pimpri-Chinchwad",
     "experience": "Fresher",
-    "skills": ["Python", "SQL", "Power BI"],
+    "skills": ["Python", "SQL", "Excel", "Power BI", "Tableau"],
     "url": "https://example.com/job2"
+  },
+  {
+    "title": "Business Analyst",
+    "company": "Example Analytics",
+    "location": "Pune",
+    "experience": "0-1 Year",
+    "skills": ["SQL", "Excel", "Power BI"],
+    "url": "https://example.com/job3"
   }
 ]
