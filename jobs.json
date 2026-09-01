@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Junior Data Analyst",
+    "company": "Example Company",
+    "location": "Pune","Pimpri chinchwad"
+    "experience": "Fresher",
+    "skills": ["SQL", "Excel", "Power BI"],
+    "url": "https://example.com/job1"
+  },
+  {
+    "title": "Data Analyst Intern",
+    "company": "Example Tech",
+    "location": "Remote",
+    "experience": "Fresher",
+    "skills": ["Python", "SQL", "Power BI"],
+    "url": "https://example.com/job2"
+  }
+]
